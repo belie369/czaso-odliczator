@@ -32,8 +32,6 @@ const setTime = () => {
 	secondsCount.textContent = seconds;
 };
 
-// https://cdn.pixabay.com/photo/2022/04/26/20/37/coffee-7159137_960_720.jpg
-
 const appUpdate = () => {
 	eventSpan.textContent = eventName.value;
 	usersTime = new Date(`${eventMonth.value} ${eventDay.value} ${eventYear.value}`);
